@@ -45,6 +45,7 @@ export default function Row({ title, fetchurl, islargeRow }) {
     width: "100%",
     playerVars: { autoplay: 1 },
   };
+  
   return (
     <>
       <div className='row'>

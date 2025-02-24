@@ -3,6 +3,9 @@ import Axios from '../Utils/Axios'; // Ensure axios is configured properly
 import requests from '../Utils/Requ'; 
 import"./banner.css"
 
+
+
+
 export default function Banner() {
   const [movie, setMovie] = useState({});
 
@@ -51,7 +54,7 @@ export default function Banner() {
       <h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
      
       </div>
-      <div className='banner_fadeBottom'></div>npm 
+      <div className='banner_fadeBottom'></div>
     </div>
   );
 }
